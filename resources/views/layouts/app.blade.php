@@ -8,8 +8,10 @@
 </head>
 <body>
     <header>
+        <span>--NAVBAR--</span>
         <span><a href="{{route('homepage')}}">Home</a></span>
         <span><a href="{{route('comics.index')}}">Lista dei Fumetti</a></span>
+        <span><a href="{{route('comics.create')}}">Crea un fumetto</a></span>
         <hr>
     </header>
 
